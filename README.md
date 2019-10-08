@@ -1,7 +1,4 @@
-```bash
-curl http://localhost:8080/
-```
-
+This is just for testing - will never get in production without changing auth.
 #### SHOW RECORDS:
 ```bash
 curl --request GET \
@@ -24,6 +21,10 @@ curl --request POST \
 
 
 #### Old without auth::
+
+```bash
+curl http://localhost:8080/
+```
 
 ```bash
 curl -H "Content-Type: application/json" -X POST -d '{
